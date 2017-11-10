@@ -1,12 +1,10 @@
 #Created by Pablo Diego Rosell, PhD, for Gallup inc. in March 2017
 
 
-
 # Load data for analysis
 
-exp1_cooperation <- read.csv("C:/Users/pablo_diego-rosell/Desktop/Projects/DARPA/Cycle 1/Experiment Data/Pipeline/NGS2-Cycle1-Experiment1/FINAL SUBMISSION/cooperation_exp1_FINAL.csv")
-exp1_rewire <- read.csv("C:/Users/pablo_diego-rosell/Desktop/Projects/DARPA/Cycle 1/Experiment Data/Pipeline/NGS2-Cycle1-Experiment1/FINAL SUBMISSION/rewire_exp1_FINAL.csv")
-library (multiwayvcov)
+exp1_cooperation <- read.csv("https://raw.githubusercontent.com/gallup/NGS2/master/cooperation_exp1_FINAL.csv")
+exp1_rewire <- read.csv("https://raw.githubusercontent.com/gallup/NGS2/master/rewire_exp1_FINAL.csv")
 
 ### Show stopper
 
