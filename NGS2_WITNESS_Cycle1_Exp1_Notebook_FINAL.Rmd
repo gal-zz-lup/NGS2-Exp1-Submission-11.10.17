@@ -41,15 +41,16 @@ source("NGS2_WITNESS_Cycle1_confirmatory_exp1_FINAL.R")
 
 # Abstract
 
-The study is intended to demonstrate the feasibility of conducting Breadboard experiments with World Lab participants by conducting a replication of Rand, Arbesman, and Christakis (2011), and so the study shares the same background, which we summarize next. As Rand, Arbesman, and Christakis note, "human populations are both highly cooperative and highly organized. Human interactions are not random but rather are structured in social networks. Importantly, ties in these networks often are dynamic, changing in response to the behavior of one's social partners. This dynamic structure permits an important form of conditional action that has been explored theoretically but has received little empirical attention: People can respond to the cooperation and defection of those around them by making or breaking network links" (p 1). 
+The study is intended to demonstrate the feasibility of conducting Breadboard experiments with World Lab participants by conducting a replication of Rand, Arbesman, and Christakis (2011). As such the study shares the same background, which we summarize next. As Rand, Arbesman, and Christakis note, "human populations are both highly cooperative and highly organized. Human interactions are not random but rather are structured in social networks. Importantly, ties in these networks often are dynamic, changing in response to the behavior of one's social partners. This dynamic structure permits an important form of conditional action that has been explored theoretically but has received little empirical attention: People can respond to the cooperation and defection of those around them by making or breaking network links" (p 1). 
 
 In recent years, a number of evolutionary game theory models have demonstrated the ability of link reciprocity to promote the evolution of cooperation in group interactions. Several qualitative results emerge consistently across dynamic network models (for a review see Perc & Szolnoki, 2010). Most importantly, these models predict that rapid rewiring of the network supports cooperation. If the network updates too slowly, the threat of severed links cannot be carried out often enough to make defection maladaptive. 
 
 In our replication of Rand et al's experiment (2011) subjects interact anonymously over the internet using custom software playable in a browser window. Subjects are randomly assigned to one of the four network link updating conditions:
-- 1.	Random link updating where neighbors change after each round randomly.
-- 2.	Fixed links where the network is static across rounds.
-- 3.	Viscous strategic link updating where subject pairs are chosen at random with a probability of 10%, and one player from each pair is allowed to break bond with the other player if bond exists or form one if one doesn't.
-- 4.	Fluid strategic link updating where subject pairs are chosen at random with a probability of 30%, and one player from each pair is allowed to break a bond with the other player if one exists or form a new bond if one does not
+
+1.	Random link updating where neighbors change after each round randomly.
+2.	Fixed links where the network is static across rounds.
+3.	Viscous strategic link updating where subject pairs are chosen at random with a probability of 10%, and one player from each pair is allowed to break bond with the other player if bond exists or form one if one doesn't.
+4.	Fluid strategic link updating where subject pairs are chosen at random with a probability of 30%, and one player from each pair is allowed to break a bond with the other player if one exists or form a new bond if one does not
 
 Subjects are then placed in a random network with other subjects. Within each starting condition, subjects play a multi-round cooperation game where they are given the option to cooperate with their neighbors or defect. Cooperation entails reducing one's own wealth by 50 units per neighbor in order to increase the wealth of all neighbors by 100 units each while defection generates no unit cost or benefit. Before making each decision, subjects are reminded of their number of neighbors and the neighbors' previous decisions.
 At the end of each turn, subjects are informed about the decisions of their neighbors, along with their own payoff. In the strategic link updating conditions, each cooperation round is followed by a rewiring round in which subjects choose whether to alter their network connections. 
@@ -81,7 +82,7 @@ At the beginning of the experiment, the social network isinitialized with 20% of
 
 + **Fixed** links: the network is static for the duration of the experiment
 + **Random** link updating: the social network is regenerated randomly after every round
-+ Strategic link updating: a rewiring step following each round. Subject pairs are randomly selected and one randomly selected actor of the selected pair will be given the option to change the status between the pair (connected to disconnected, or disconnected to connected.) The deciding actor will be provided with behavior of the alter's during the previous round. At the end of the rewiring step, each player will receive summaries about updates involved him/her. 
++ **Strategic link updating**: a rewiring step following each round. Subject pairs are randomly selected and one randomly selected actor of the selected pair will be given the option to change the status between the pair (connected to disconnected, or disconnected to connected.) The deciding player will be told how their neighbors behaved during the previous round. At the end of the rewiring step, each player will receive summaries about updates in which he/she is involved. 
     - **Viscous**: 10% randomly picked subject pairs selected to have an option of change.
     - **Fluid**: 30% randomly picked subject pairs selected to have an option of change.
 
